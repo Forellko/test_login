@@ -1,0 +1,31 @@
+.maincenter{
+  position: absolute;
+  top:300px;
+  left:750px;
+  border-color: red;
+}
+.tlogin:focus{
+  width: 300px;
+  height: 30px;
+  font-size: 30px;
+  text-align: right;
+  padding-right: 10px;
+  border-color: purple;
+}
+.slplogin{
+  width: 300px;
+  height: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+.logo{
+  position: absolute;
+  top:200px;
+  left:840px;
+  font-size:50px;
+  color:purple;
+}
+.subbut{
+  width: 300px;
+  height: 50px;
+}
