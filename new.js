@@ -1,4 +1,10 @@
 function lock(){
-  a = localStorage.getItem("login1");
-  b = localStorage.getItem("password1");
+  ok = localStorage.getItem("ok");
+  if(ok == "ok"){
+    alert("Welcome");
+  }else if(ok == "not"){
+    alert("Wrong login or data");
+  }
 }
+
+lock();

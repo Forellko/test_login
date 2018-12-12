@@ -3,12 +3,12 @@ function doSub(){
   let b = document.getElementById("passwordt").value;
   if(localStorage.getItem("login") == a){
     if(localStorage.getItem("password") == b){
-      
+      localStorage.setItem("ok","ok");
     }else{
-      alert("Wrong login or password");
+      localStorage.setItem("ok","not");
     }
   }else{
-    alert("Wrong login or password");
+    localStorage.setItem("ok","not");
   }
   return;
 }
