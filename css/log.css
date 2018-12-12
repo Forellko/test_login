@@ -11,20 +11,18 @@
 .log h1{
   padding-left: 30px;
   font-size: 40px;
+  color: darkslategrey;
 }
-.loglog{
+.loglog, .logpas{
   width: 300px;
   height: 30px;
   font-size: 22px;
   padding-left: 10px;
   background-color: blanchedalmond;
-}
-.logpas{
-  width: 300px;
-  height: 30px;
-  font-size: 22px;
-  padding-left: 10px;
-  background-color: blanchedalmond;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  border-top-right-radius: 30%;
 }
 .logsub{
   width: 310px;
