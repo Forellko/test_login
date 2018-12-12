@@ -3,8 +3,9 @@ function lock(){
   if(ok == "ok"){
     alert("Welcome");
   }else if(ok == "not"){
-    alert("Wrong login or data");
+    alert("Wrong login or password");
   }
+  localStorage.clear();
 }
 
 lock();
